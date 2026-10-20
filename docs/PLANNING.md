@@ -2,6 +2,14 @@
 
 > Remise finale : **vendredi 13 novembre**. Le plan finit le **mardi 10 novembre**. Les 11, 12 et 13 novembre servent de zone tampon : aucune nouvelle fonctionnalité.
 
+## Avancement
+
+**20 octobre — sprint 1 livré sur la branche `claude/optimistic-planck-u3go9o` de `fastclap`** (à fusionner dans `main` pour déployer sur Railway).
+
+Fait : machine à états, serveur WebSocket validé par Zod, décompte, zone de frappe (2 modes d'erreur), piste, serveur autoritaire, bots, fin de course et classement, corpus de base, langue du navigateur, CI à chaque push.
+
+Pris d'avance sur le sprint 2 : COURSE-07 (abandon), COURSE-08 (reconnexion 30 s), COURSE-11 (relancer, fermer), SALLE-07 (expulsion), SALLE-08 (transfert d'hôte), SALLE-09 (accès hors course), ajout de bots dans l'interface. Cela fait environ 16 points de moins à faire au sprint 2.
+
 ## 1. Échelle d'estimation
 
 Suite de Fibonacci : **1 · 2 · 3 · 5 · 8 · 13**
